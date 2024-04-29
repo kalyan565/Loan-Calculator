@@ -1,0 +1,81 @@
+label{
+    text-align: right;
+    padding: 10px;
+    font-weight: bold;
+}
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: linear-gradient(to right,black,red);
+  
+}
+
+h1{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: red;
+    color: black;
+    padding: 10px;
+}
+
+
+.container{
+    color: rgb(255, 55, 24);
+    max-width: 400px;
+    margin-top: 100px;
+    background-color: beige;
+    overflow: hidden;
+    box-shadow: 10px 10px 30px black;
+    
+}
+
+input[type="number"]{
+    width: 90%;
+    margin-left: 10px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 0;
+
+}
+input[type="number"]:hover{
+    box-shadow: 0px 0px 20px red;
+    transition: box-shadow 0.3s ease;
+}
+input[type="number"]:focus{
+    box-shadow: 0px 0px 20px black;
+    border : none; 
+   
+}
+input[type="submit"]{
+    margin-left: 120px;
+    margin-bottom: 30px;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: black;
+    color: red;
+    font-weight: bold;
+    border: 3px solid red;
+    cursor:cell;
+    width: 150px;
+}
+#result{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px dotted black;
+    
+    
+
+}
